@@ -92,7 +92,7 @@ export default {
     },
   },
   methods: {
-    GetFormattedDate(pdate) {
+    formateDate(pdate) {
       var date = new Date(pdate),
         month = "" + (date.getMonth() + 1),
         day = "" + date.getDate(),
@@ -146,7 +146,7 @@ export default {
               authors: book.authors.toString(),
               numberOfPages: book.numberOfPages,
               country: book.country,
-              released: this.GetFormattedDate(book.released),
+              released: this.formateDate(book.released),
             })
           );
         })
