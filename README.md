@@ -1,6 +1,8 @@
 # Front End Assessment
 
-This project implements API from [ Ice and Fire API ](https://www.anapioficeandfire.com/api/books).. Ensure you have an active internet to fetch data from the API
+This project implements API from [ Ice and Fire API ](https://www.anapioficeandfire.com/api/books).. 
+* Ensure you have an active internet to fetch data from the API. 
+* Endure you press the enter button after typing your search query
 
 ## Project setup
 
